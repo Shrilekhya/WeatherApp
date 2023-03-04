@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    width:auto;
+    position: relative;
+    background-image: url("bg.jpg");
+    font-family: 'Lora', serif;
+    text-align: center;
+}
+
+.title{
+    margin-top: 10vh;
+    font-size: 10vh;
+}
+
+.form1{
+    margin-top: 20vh;
+}
+
+.search{
+    font-size: 5vh;
+    
+}
+input[type="text"] {
+    margin-left: 4vw;
+    text-align: center;
+    height: 60px;
+    top: 10px;
+    border: none;
+    background: transparent;
+    font-size: 20px;
+    font-weight: 200;
+    width: 313px;
+}
+::placeholder {
+    color: rgb(193, 188, 186);
+    opacity: 2;
+}
+button{
+    margin-top: 2vh;
+    font-size: 2vh;
+    width: 6vw;
+    height: 6vh;
+    border: transparent;
+    border-radius: 50%;
+    background-color: rgba(243, 170, 128, 0.979);
+    
+}
+.div1{
+    position: absolute;
+    text-align: left;
+    width: 50vw;
+    top:15vh;
+    height:70vh;
+    line-height: 2vh;
+}
+
+.div2{
+    position: absolute;
+    left:60vw;
+    height:40vh;
+    width: 40vw;
+    top:15vh;
+}
+
+.temp{
+    font-size: 20vh;
+    font-weight:10%;
+    margin-top: 2vh;
+    color: black;
+}
+.loc{
+    margin-top: 10vh;
+    margin-left: 10vw;
+    font-size: 10vh;
+    
+}
+.day{
+    margin-left: 10vw;
+    font-size: 4vh;
+    
+}
+.img{
+    margin-left: 10vw;
+    width:7vw;
+}
